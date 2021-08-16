@@ -1,0 +1,38 @@
+{
+  "name": "login",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@accounts/graphql-api": "^0.33.0",
+    "@accounts/mongo": "^0.33.4",
+    "@accounts/password": "^0.32.0",
+    "@accounts/server": "^0.32.0",
+    "@graphql-modules/core": "^0.7.17",
+    "@graphql-toolkit/schema-merging": "^0.10.7",
+    "apollo-server": "^3.1.2",
+    "graphql": "^15.5.1",
+    "mongoose": "^5.13.5",
+    "next": "10.0.1",
+    "next-auth": "^3.27.3",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejirocodes/Nextjs_Authentication.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ejirocodes/Nextjs_Authentication/issues"
+  },
+  "homepage": "https://github.com/ejirocodes/Nextjs_Authentication#readme"
+}
